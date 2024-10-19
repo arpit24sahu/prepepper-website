@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactSection: React.FC = () => {
   const openGoogleForm = () => {
-    window.open('https://forms.gle/your-google-form-url', '_blank');
+    window.open('https://forms.gle/YXo49ytnkbTM9MHE7', '_blank');
   };
 
   return (

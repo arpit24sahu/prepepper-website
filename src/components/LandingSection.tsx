@@ -2,7 +2,7 @@ import React from 'react';
 
 const LandingSection: React.FC = () => {
   const openGoogleForm = () => {
-    window.open('https://forms.gle/your-google-form-url', '_blank');
+    window.open('https://forms.gle/YXo49ytnkbTM9MHE7', '_blank');
   };
 
   const scrollToWhatYouGet = () => {
@@ -27,10 +27,10 @@ const LandingSection: React.FC = () => {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 animate-fade-in-up">
-          <small className="block text-xl sm:text-2xl mb-2 text-stroke-black">Build on your</small>
-          <span className="text-4xl sm:text-5xl md:text-6xl text-stroke-black">Million Dollar Idea!</span>
+          <small className="block text-xl sm:text-2xl mb-2">Build on your</small>
+          <span className="text-4xl sm:text-5xl md:text-6xl">Million Dollar Idea!</span>
         </h2>
-        <p className="text-xl sm:text-2xl mb-8 animate-fade-in-up delay-200 text-stroke-black">
+        <p className="text-xl sm:text-2xl mb-8 animate-fade-in-up delay-200">
           Book your free consultation with us.
         </p>
         <div className="space-y-4">
