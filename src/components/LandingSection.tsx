@@ -35,15 +35,15 @@ const LandingSection: React.FC = () => {
         </p>
         <div className="space-y-4">
           <button
-            onClick={openGoogleForm}
-            className="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-indigo-100 transition duration-300 ease-in-out transform hover:scale-105 animate-fade-in-up delay-400"
+              onClick={openGoogleForm}
+              className="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-indigo-100 transition duration-300 ease-in-out transform hover:scale-105 animate-fade-in-up delay-400"
           >
-            Schedule Us
+            Book your Free Consultation
           </button>
           <div>
             <button
-              onClick={scrollToWhatYouGet}
-              className="text-white font-semibold py-2 px-4 rounded-full text-lg hover:underline transition duration-300 ease-in-out animate-fade-in-up delay-600"
+                onClick={scrollToWhatYouGet}
+                className="text-white font-semibold py-2 px-4 rounded-full text-lg underline hover:underline transition duration-300 ease-in-out animate-fade-in-up delay-600"
             >
               See What You Can Get
             </button>
