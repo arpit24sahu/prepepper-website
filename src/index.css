@@ -29,19 +29,12 @@
   animation-delay: 600ms;
 }
 
-/*.text-stroke-black {*/
-/*  -webkit-text-stroke: 1px black;*/
-/*  text-stroke: 1px black;*/
-/*}*/
-
-/* styles.css */
-.outline {
-  -webkit-text-stroke: 1px black;  /* Defines the stroke width and color */
-  paint-order: stroke fill;  /* Ensures the stroke is rendered behind the fill */
-}
-
 @layer base {
   body {
     @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300;
   }
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Sun, Moon } from 'lucide-react';
+import { constants } from '../constants';
 
 interface FooterProps {
   darkMode: boolean;
@@ -14,19 +15,19 @@ const Footer: React.FC<FooterProps> = ({ darkMode, toggleDarkMode }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p>&copy; {currentYear} Prepepper Softwares. All rights reserved.</p>
+            <p>&copy; {currentYear} {constants.companyName}. All rights reserved.</p>
           </div>
           <div className="flex space-x-6 items-center">
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
+            <a href={constants.socialLinks.facebook} className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
               <Facebook className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
+            <a href={constants.socialLinks.twitter} className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
               <Twitter className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
+            <a href={constants.socialLinks.instagram} className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
               <Instagram className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
+            <a href={constants.socialLinks.linkedin} className="text-gray-400 hover:text-white transition duration-150 ease-in-out">
               <Linkedin className="h-6 w-6" />
             </a>
             <button
